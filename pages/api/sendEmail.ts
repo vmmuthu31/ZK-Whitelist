@@ -44,7 +44,7 @@ export default async function handler(
       <div style="font-family: Arial, sans-serif; line-height: 1.6;">
       <h1>Hi ${name} 👋,</h1>
       <p>Welcome to Zk Connect! Your registration is successful. 🎉</p>
-      <p>You took the first big step to land your dream job! LFG🚀</p>
+      <p>You took the first big step to land your dream job! LFG. 🚀</p>
       <p>Unlock tech talent with ZkConnect, the AI-driven platform that simplifies tech talent acquisition. 🌟</p>
       <p>Join our waiting list for early access and be part of the future of recruitment. ⏳</p>
       <p><strong>Stay ahead in hiring with Zk Connect! 💼</strong></p>
