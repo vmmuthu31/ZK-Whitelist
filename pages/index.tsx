@@ -1,7 +1,5 @@
 "use client";
 import Image from "next/image";
-/* eslint-disable */
-// import bg from "../../public/bgvid.mp4";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -19,7 +17,7 @@ export default function Home() {
         mobilenumber,
         email,
       });
-      if (response.status === 200) {
+      if (response.status === 200 || 201 || 202 || 203 || 204 || 205) {
         toast.success("Your Whitelist is successfully sent to your email!", {
           autoClose: 4000,
         });
@@ -107,10 +105,10 @@ export default function Home() {
             <span className="text-black text-2xl font-bold font-sans   leading-normal">
               LFG 🚀
             </span>
+            <ToastContainer />
           </button>
         </div>
       </div>
-      <ToastContainer />
     </section>
   );
 }

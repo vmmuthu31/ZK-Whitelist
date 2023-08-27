@@ -9,14 +9,6 @@ async function dbConnect() {
   return mongoose.connect("mongodb+srv://admin:admin@cluster0.rxnpu.mongodb.net/Zk-whitelist");
 }
 
-// Nodemailer Configuration
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: 'zkconnectt@gmail.com',
-    pass: 'yslzyadcmvewlmmn',
-  },
-});
 
 export default async function handler(
   req: NextApiRequest,
@@ -61,6 +53,16 @@ export default async function handler(
     </div>
       `,
     };
+
+    
+// Nodemailer Configuration
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'zkconnectt@gmail.com',
+    pass: 'yslzyadcmvewlmmn',
+  },
+});
 
     await transporter.sendMail(mailOptions);
     res.status(200).json({ message: 'Email sent successfully' });
