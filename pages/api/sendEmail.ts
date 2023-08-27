@@ -49,7 +49,7 @@ export default async function handler(
       <p>Join our waiting list for early access and be part of the future of recruitment. ⏳</p>
       <p><strong>Stay ahead in hiring with Zk Connect! 💼</strong></p>
       <img src="https://blogger.googleusercontent.com/img/a/AVvXsEh1yDPOUhd0sGwyjF6QoqWAV_O4AalN3w32_5i3Uzx4qSd-NgiIv0NbS367PpB8g0RfozgSaEZA31QyDxul6XLGQ_hadH1ppbC5Z7YYsxDpdimNzuAtAI-UMICowCGgDGmDDrBSUzrPba_Ro6DFMxAEYeHRaForQC7wTueuqp59FbulOyhSeV4TE8d85T8" alt="Hiring Image" width="400">
-      <p>If you have any questions, feel free to reach out to us at support@zkconnect.com. 📧</p>
+      <p>If you have any questions, feel free to reach out to us at zkconnectt@gmail.com. 📧</p>
       <p>Best regards,<br>The Zk Connect Team 👥</p>
       <hr>
       <footer style="font-size: 0.8em; color: grey;">
