@@ -25,6 +25,11 @@ export default async function handler(
   // Destructure request body
   const { name, mobilenumber, email } = req.body;
 
+  const existingUser = await User.findOne({ email });
+  if (existingUser) {
+    return res.status(400).json({ message: 'Email already exists' });
+  }
+
   // Insert data into MongoDB using Mongoose
   try {
     const user = await User.create({ name, mobilenumber, email });
