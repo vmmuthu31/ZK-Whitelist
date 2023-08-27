@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import bg from "../../public/bgvid.mp4";
+/* eslint-disable */
+// import bg from "../../public/bgvid.mp4";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
