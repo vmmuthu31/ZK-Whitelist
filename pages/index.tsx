@@ -48,7 +48,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="lg:mx-[300px] md:mx-[90px] mx-5  border-[10px] border-solid border-[#f5b8ff] rounded-[25px] bg-black bg-opacity-60">
+      <div className="lg:mx-[300px] md:mx-[90px] mx-5 px-2  border-[10px] border-solid border-[#f5b8ff] rounded-[25px] bg-black bg-opacity-60">
         <div className="md:p-[20px]  mt-2 text-center py-4">
           <h1 className="text-[#DB00FF] font-sans md:text-center  md:text-[42px] text-[30px] font-bold leading-normal line-clamp-3 ">
             &quot;Unlock Tech Talent with ZkConnect&quot;
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center items-center flex-col">
-          <div className="mb-[20px]">
+          <div className="mb-[15px]">
             <input
               type="text"
               name="name"
@@ -77,7 +77,7 @@ export default function Home() {
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          <div className="mb-[20px]">
+          <div className="mb-[15px]">
             <input
               type="text"
               name="mobilenumber"
@@ -88,7 +88,7 @@ export default function Home() {
               onChange={(e) => setMobileNumber(e.target.value)}
             />
           </div>
-          <div className="mb-[20px]">
+          <div className="mb-[15px]">
             <input
               type="text"
               name="email"
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
 
           <button
-            className="btn-grad rounded-[16px]  flex justify-center items-center px-[10px] py-[26px] pb-[20px]"
+            className="btn-grad rounded-[16px]    flex justify-center items-center "
             onClick={handleRegister}
           >
             <span className="text-black text-2xl font-bold font-sans   leading-normal">
