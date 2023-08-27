@@ -23,9 +23,15 @@ export default function Home() {
         });
       } else {
         console.log("Response status:", response.status);
+        toast.error("Your EmailId Already Registered!", {
+          autoClose: 4000,
+        });
       }
     } catch (error) {
       console.error("Error:", error);
+      toast.error("Your EmailId Already Registered!", {
+        autoClose: 4000,
+      });
     }
   };
 
